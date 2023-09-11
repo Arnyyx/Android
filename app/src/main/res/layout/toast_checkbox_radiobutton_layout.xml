@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnToastShort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Short Toast" />
+
+    <Button
+        android:id="@+id/btnToastLong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Long Toast" />
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dialog" />
+
+    <CheckBox
+        android:id="@+id/xemBongDa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem bóng đá" />
+
+    <CheckBox
+        android:id="@+id/phimKiemHiep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phim kiếm hiệp" />
+
+    <CheckBox
+        android:id="@+id/diDuLich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đi du lịch" />
+
+    <CheckBox
+        android:id="@+id/tuDiMotMinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tự đi một mình" />
+
+    <Button
+        android:id="@+id/btnVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Vote" />
+
+    <RadioGroup
+        android:id="@+id/rGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rất thích" />
+
+        <RadioButton
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hơi hơi thích" />
+
+        <RadioButton
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Không lung lay" />
+
+        <RadioButton
+            android:id="@+id/line4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhìn mặt thấy ghét" />
+
+        <RadioButton
+            android:id="@+id/line5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhìn mặt muốn báo công an" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnVote2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Vote" />
+</LinearLayout>
