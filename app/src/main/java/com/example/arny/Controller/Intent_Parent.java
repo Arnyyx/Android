@@ -18,7 +18,7 @@ import java.util.ArrayList;
 
 public class Intent_Parent extends AppCompatActivity {
     ListView listView;
-    Integer a;
+    Integer b;
     ArrayList<Integer> arr = new ArrayList<>();
     ArrayAdapter adapter;
 
@@ -39,7 +39,7 @@ public class Intent_Parent extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         listView = findViewById(R.id.listView);
         a = data.getIntExtra("a", 1);
-        arr.add(a);
+        arr.add(b);
         listView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }
