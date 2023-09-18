@@ -11,6 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RelaytiveLayout"
         tools:targetApi="31">
+        <activity android:name=".Controller.QuanLySach"/>
+        <activity android:name=".Controller.DatabaseConnect" />
         <activity android:name=".Controller.Intent_Child"/>
         <activity android:name=".Controller.Intent_Parent"/>
         <activity android:name=".Controller.Spinner2_Act" />
