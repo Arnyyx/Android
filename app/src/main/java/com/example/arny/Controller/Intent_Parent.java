@@ -3,22 +3,18 @@ package com.example.arny.Controller;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
 import android.widget.ListView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.arny.Adapter.CustomAdapter;
-import com.example.arny.Model.ArrayList2;
-import com.example.arny.Model.NhanVien;
 import com.example.arny.R;
 
 import java.util.ArrayList;
 
 public class Intent_Parent extends AppCompatActivity {
     ListView listView;
-    Integer b;
+    Integer a;
     ArrayList<Integer> arr = new ArrayList<>();
     ArrayAdapter adapter;
 
@@ -39,7 +35,7 @@ public class Intent_Parent extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         listView = findViewById(R.id.listView);
         a = data.getIntExtra("a", 1);
-        arr.add(b);
+        arr.add(a);
         listView.setAdapter(adapter);
         adapter.notifyDataSetChanged();
     }
