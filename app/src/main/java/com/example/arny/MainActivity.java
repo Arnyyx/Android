@@ -11,6 +11,7 @@ import com.example.arny.Controller.DatabaseConnect;
 import com.example.arny.Controller.GridView_Act;
 import com.example.arny.Controller.HoaDon_Act;
 import com.example.arny.Controller.Intent_Parent;
+import com.example.arny.Controller.KiemTra;
 import com.example.arny.Controller.ListView_Act;
 import com.example.arny.Controller.QuanLySach;
 import com.example.arny.Controller.Relative_Act;
@@ -88,6 +89,10 @@ public class MainActivity extends AppCompatActivity {
         });
         findViewById(R.id.btn14).setOnClickListener(view -> {
             Intent intent = new Intent(MainActivity.this, QuanLySach.class);
+            startActivity(intent);
+        });
+        findViewById(R.id.btn15).setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, KiemTra.class);
             startActivity(intent);
         });
     }

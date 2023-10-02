@@ -59,5 +59,9 @@ public class QuanLySach extends AppCompatActivity {
 
             dialog.show();
         });
+
+        findViewById(R.id.btnXemDanhSach).setOnClickListener(view -> {
+
+        });
     }
 }
